@@ -4,6 +4,8 @@ import {Formik} from 'formik';
 import BouncyCheckbox from 'react-native-bouncy-checkbox';
 import * as Yup from 'yup';
 import InputField from './InputField';
+import {authentication} from '../utils/firebase/firebase-config';
+import {createUserWithEmailAndPassword} from 'firebase/auth';
 
 const SignupSchema = Yup.object().shape({
   firstName: Yup.string()
@@ -22,12 +24,29 @@ const SignupSchema = Yup.object().shape({
 
 const FormUse = () => {
   const [checkboxState, setCheckboxState] = useState(false);
+  const [isSignedIn, setisSignedIn] = useState(false);
+
+  const registerUser = values => {
+    console.log(values);
+    createUserWithEmailAndPassword(
+      authentication,
+      values.email,
+      values.password,
+    )
+      .then(re => {
+        console.log(re);
+        setisSignedIn(true);
+      })
+      .catch(re => {
+        console.log(re);
+      });
+  };
   return (
     <Formik
       initialValues={{firstName: '', email: '', password: '', terms: false}}
       validateOnMount={true}
       validationSchema={SignupSchema}
-      onSubmit={values => console.log('hola haciendo submit')}>
+      onSubmit={values => registerUser(values)}>
       {({
         handleChange,
         handleBlur,
