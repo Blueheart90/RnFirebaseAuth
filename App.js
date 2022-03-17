@@ -1,15 +1,8 @@
-import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import FormUse from './src/components/FormUse';
 
+import SignUp from './src/screens/SignUp';
 const App = () => {
-  return (
-    <View>
-      <FormUse />
-    </View>
-  );
+  return <SignUp />;
 };
 
 export default App;
-
-const styles = StyleSheet.create({});

@@ -7,11 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* AuthFirebaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AuthFirebaseTests.m */; };
+		00E356F31AD99517003FC87E /* ReservacionVuelosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReservacionVuelosTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A9F52F9B57B94089B4A0888E /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E7BF1AA7F6B4DBD9CD5FC74 /* Barlow-Medium.ttf */; };
+		10AA7AE13E734FDAAC45448E /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CCF95136E4563935B2D90 /* AntDesign.ttf */; };
+		5DEBA58FAB0C42BABDBD50D8 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5AB73A8AF3D4AD0A5A231C0 /* Entypo.ttf */; };
+		DF4FFEBECFF4460997D27498 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B862295BCD4A4108865DD255 /* EvilIcons.ttf */; };
+		18EDA0C563C44A40A24C152D /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42B6F5BA471749E18058E117 /* Feather.ttf */; };
+		B223B7D05EA147A2BF4C3C96 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC50247B666B41E2AA397AA3 /* FontAwesome.ttf */; };
+		F56AD685158E4E87A5245562 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 660768DA212A42E48A52521E /* FontAwesome5_Brands.ttf */; };
+		02219ED7CD3143E4B7D33F65 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC5F15C5EC964C0EA7B39BE1 /* FontAwesome5_Regular.ttf */; };
+		B325963BEEEE44F4A65FCAE4 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E4908B8DB048D6AC42D9F7 /* FontAwesome5_Solid.ttf */; };
+		8906F48F913D4EA3876D11C6 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6641767C498F43D8BD5BD29E /* Fontisto.ttf */; };
+		46A15F079409433CB6FFA11C /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82C5799FC26945F7AE9B223E /* Foundation.ttf */; };
+		E9C3C86DD79D4D949CEE2E53 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 337C8AAED29F484A9E6CD102 /* Ionicons.ttf */; };
+		091BAB74EC6944D99C2941CC /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF3E66FF9FA54A9DBCE7320A /* MaterialCommunityIcons.ttf */; };
+		B934359A35EB424C80F94588 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93B189668D61479DAF4C65A2 /* MaterialIcons.ttf */; };
+		7282A4C696A747D29B6BB466 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2180D0DD1BEB49E592E56E8F /* Octicons.ttf */; };
+		AE19AB83E797433F9AB2349B /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C7FEC9E31AE4D1EAAE33B0F /* SimpleLineIcons.ttf */; };
+		0C5FC5CB7AFE40568812D76C /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A2107B6E15A4D2EB8B22F2C /* Zocial.ttf */; };
+		302AB270F7844350A3788695 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E24666D510E451695E88B59 /* Poppins-SemiBold.ttf */; };
+		FF9EBA5BC58745EFA5A99F3E /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E850BB347604CADAFF693DE /* Barlow-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,22 +39,41 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = AuthFirebase;
+			remoteInfo = ReservacionVuelos;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* AuthFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ReservacionVuelosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReservacionVuelosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* AuthFirebaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthFirebaseTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* AuthFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AuthFirebase/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AuthFirebase/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AuthFirebase/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AuthFirebase/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AuthFirebase/main.m; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AuthFirebase/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ReservacionVuelosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReservacionVuelosTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ReservacionVuelos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReservacionVuelos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReservacionVuelos/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReservacionVuelos/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReservacionVuelos/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReservacionVuelos/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReservacionVuelos/main.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReservacionVuelos/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5E7BF1AA7F6B4DBD9CD5FC74 /* Barlow-Medium.ttf */ = {isa = PBXFileReference; name = "Barlow-Medium.ttf"; path = "../src/utils/fonts/Barlow-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F0CCF95136E4563935B2D90 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A5AB73A8AF3D4AD0A5A231C0 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B862295BCD4A4108865DD255 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		42B6F5BA471749E18058E117 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC50247B666B41E2AA397AA3 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		660768DA212A42E48A52521E /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AC5F15C5EC964C0EA7B39BE1 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D5E4908B8DB048D6AC42D9F7 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6641767C498F43D8BD5BD29E /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		82C5799FC26945F7AE9B223E /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		337C8AAED29F484A9E6CD102 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FF3E66FF9FA54A9DBCE7320A /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		93B189668D61479DAF4C65A2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2180D0DD1BEB49E592E56E8F /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C7FEC9E31AE4D1EAAE33B0F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4A2107B6E15A4D2EB8B22F2C /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E24666D510E451695E88B59 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../src/utils/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6E850BB347604CADAFF693DE /* Barlow-SemiBold.ttf */ = {isa = PBXFileReference; name = "Barlow-SemiBold.ttf"; path = "../src/utils/fonts/Barlow-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +94,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* AuthFirebaseTests */ = {
+		00E356EF1AD99517003FC87E /* ReservacionVuelosTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* AuthFirebaseTests.m */,
+				00E356F21AD99517003FC87E /* ReservacionVuelosTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = AuthFirebaseTests;
+			path = ReservacionVuelosTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -73,7 +111,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* AuthFirebase */ = {
+		13B07FAE1A68108700A75B9A /* ReservacionVuelos */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -83,7 +121,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = AuthFirebase;
+			name = ReservacionVuelos;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -104,11 +142,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* AuthFirebase */,
+				13B07FAE1A68108700A75B9A /* ReservacionVuelos */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* AuthFirebaseTests */,
+				00E356EF1AD99517003FC87E /* ReservacionVuelosTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				2CA095F62AA4445FA6AE6848 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -118,18 +157,45 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* AuthFirebase.app */,
-				00E356EE1AD99517003FC87E /* AuthFirebaseTests.xctest */,
+				13B07F961A680F5B00A75B9A /* ReservacionVuelos.app */,
+				00E356EE1AD99517003FC87E /* ReservacionVuelosTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2CA095F62AA4445FA6AE6848 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				5E7BF1AA7F6B4DBD9CD5FC74 /* Barlow-Medium.ttf */,
+				0F0CCF95136E4563935B2D90 /* AntDesign.ttf */,
+				A5AB73A8AF3D4AD0A5A231C0 /* Entypo.ttf */,
+				B862295BCD4A4108865DD255 /* EvilIcons.ttf */,
+				42B6F5BA471749E18058E117 /* Feather.ttf */,
+				BC50247B666B41E2AA397AA3 /* FontAwesome.ttf */,
+				660768DA212A42E48A52521E /* FontAwesome5_Brands.ttf */,
+				AC5F15C5EC964C0EA7B39BE1 /* FontAwesome5_Regular.ttf */,
+				D5E4908B8DB048D6AC42D9F7 /* FontAwesome5_Solid.ttf */,
+				6641767C498F43D8BD5BD29E /* Fontisto.ttf */,
+				82C5799FC26945F7AE9B223E /* Foundation.ttf */,
+				337C8AAED29F484A9E6CD102 /* Ionicons.ttf */,
+				FF3E66FF9FA54A9DBCE7320A /* MaterialCommunityIcons.ttf */,
+				93B189668D61479DAF4C65A2 /* MaterialIcons.ttf */,
+				2180D0DD1BEB49E592E56E8F /* Octicons.ttf */,
+				9C7FEC9E31AE4D1EAAE33B0F /* SimpleLineIcons.ttf */,
+				4A2107B6E15A4D2EB8B22F2C /* Zocial.ttf */,
+				1E24666D510E451695E88B59 /* Poppins-SemiBold.ttf */,
+				6E850BB347604CADAFF693DE /* Barlow-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* AuthFirebaseTests */ = {
+		00E356ED1AD99517003FC87E /* ReservacionVuelosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AuthFirebaseTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReservacionVuelosTests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -140,14 +206,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = AuthFirebaseTests;
-			productName = AuthFirebaseTests;
-			productReference = 00E356EE1AD99517003FC87E /* AuthFirebaseTests.xctest */;
+			name = ReservacionVuelosTests;
+			productName = ReservacionVuelosTests;
+			productReference = 00E356EE1AD99517003FC87E /* ReservacionVuelosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* AuthFirebase */ = {
+		13B07F861A680F5B00A75B9A /* ReservacionVuelos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AuthFirebase" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReservacionVuelos" */;
 			buildPhases = (
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -159,9 +225,9 @@
 			);
 			dependencies = (
 			);
-			name = AuthFirebase;
-			productName = AuthFirebase;
-			productReference = 13B07F961A680F5B00A75B9A /* AuthFirebase.app */;
+			name = ReservacionVuelos;
+			productName = ReservacionVuelos;
+			productReference = 13B07F961A680F5B00A75B9A /* ReservacionVuelos.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +247,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AuthFirebase" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReservacionVuelos" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,8 +260,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* AuthFirebase */,
-				00E356ED1AD99517003FC87E /* AuthFirebaseTests */,
+				13B07F861A680F5B00A75B9A /* ReservacionVuelos */,
+				00E356ED1AD99517003FC87E /* ReservacionVuelosTests */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +280,25 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A9F52F9B57B94089B4A0888E /* Barlow-Medium.ttf in Resources */,
+				10AA7AE13E734FDAAC45448E /* AntDesign.ttf in Resources */,
+				5DEBA58FAB0C42BABDBD50D8 /* Entypo.ttf in Resources */,
+				DF4FFEBECFF4460997D27498 /* EvilIcons.ttf in Resources */,
+				18EDA0C563C44A40A24C152D /* Feather.ttf in Resources */,
+				B223B7D05EA147A2BF4C3C96 /* FontAwesome.ttf in Resources */,
+				F56AD685158E4E87A5245562 /* FontAwesome5_Brands.ttf in Resources */,
+				02219ED7CD3143E4B7D33F65 /* FontAwesome5_Regular.ttf in Resources */,
+				B325963BEEEE44F4A65FCAE4 /* FontAwesome5_Solid.ttf in Resources */,
+				8906F48F913D4EA3876D11C6 /* Fontisto.ttf in Resources */,
+				46A15F079409433CB6FFA11C /* Foundation.ttf in Resources */,
+				E9C3C86DD79D4D949CEE2E53 /* Ionicons.ttf in Resources */,
+				091BAB74EC6944D99C2941CC /* MaterialCommunityIcons.ttf in Resources */,
+				B934359A35EB424C80F94588 /* MaterialIcons.ttf in Resources */,
+				7282A4C696A747D29B6BB466 /* Octicons.ttf in Resources */,
+				AE19AB83E797433F9AB2349B /* SimpleLineIcons.ttf in Resources */,
+				0C5FC5CB7AFE40568812D76C /* Zocial.ttf in Resources */,
+				302AB270F7844350A3788695 /* Poppins-SemiBold.ttf in Resources */,
+				FF9EBA5BC58745EFA5A99F3E /* Barlow-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* AuthFirebaseTests.m in Sources */,
+				00E356F31AD99517003FC87E /* ReservacionVuelosTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +363,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* AuthFirebase */;
+			target = 13B07F861A680F5B00A75B9A /* ReservacionVuelos */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -292,7 +377,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AuthFirebaseTests/Info.plist;
+				INFOPLIST_FILE = ReservacionVuelosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,7 +391,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthFirebase.app/AuthFirebase";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReservacionVuelos.app/ReservacionVuelos";
 			};
 			name = Debug;
 		};
@@ -315,7 +400,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = AuthFirebaseTests/Info.plist;
+				INFOPLIST_FILE = ReservacionVuelosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -329,7 +414,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthFirebase.app/AuthFirebase";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReservacionVuelos.app/ReservacionVuelos";
 			};
 			name = Release;
 		};
@@ -340,7 +425,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = AuthFirebase/Info.plist;
+				INFOPLIST_FILE = ReservacionVuelos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,7 +436,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AuthFirebase;
+				PRODUCT_NAME = ReservacionVuelos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -364,7 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = AuthFirebase/Info.plist;
+				INFOPLIST_FILE = ReservacionVuelos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,7 +460,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AuthFirebase;
+				PRODUCT_NAME = ReservacionVuelos;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -505,7 +590,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AuthFirebaseTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReservacionVuelosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -514,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AuthFirebase" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReservacionVuelos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -523,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AuthFirebase" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReservacionVuelos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
